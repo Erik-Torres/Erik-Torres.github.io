@@ -14,3 +14,54 @@ table, th, td {
 th, td {
   background-color: #96D4D4;
 }
+
+/*############################# NAVBAR CLASSES ##############################*/
+
+#navbar {
+  box-shadow: 10px 10px 5px grey;
+}
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+
+#navbar a {
+  display: block;
+  width: 100%
+  padding: 8px;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  background-color: #dddddd;
+}
+
+#navbar .active {
+  background-color: #4287f5;
+}
+
+
+/*############################# ABOUTME CLASSES ##############################*/
+
+#aboutme ul {
+  display: block;
+}
+
+#aboutme ul li {
+  display: block;
+}
+/*############################# CONTACT CLASSES ##############################*/
