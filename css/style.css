@@ -1,31 +1,32 @@
+
 body {
-  background-color: white;
+  background-color: rgb(183, 226, 252);
+  margin: 0;
 }
 
 header {
   text-align: center;
 }
 
-table, th, td {
-  border: 1px solid white;
-  border-collapse: collapse;
+h1 {
+  margin: 0;
 }
 
-th, td {
-  background-color: #96D4D4;
+#intro {
+  padding-top: 46px; /*TODO: figure out how to make padding dynamic relative to the size of the navbar*/
 }
 
 /*############################# NAVBAR CLASSES ##############################*/
 
-#navbar {
-  box-shadow: 10px 10px 5px grey;
-}
 #navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #111;
+  background-color:  grey;
+  position: fixed;
+  top: 00;
+  width: 100%;
 }
 
 #navbar a {
@@ -52,7 +53,9 @@ th, td {
 #navbar .active {
   background-color: #4287f5;
 }
-
+ #navbar #contact {
+  float: right;
+ }
 
 /*############################# ABOUTME CLASSES ##############################*/
 
