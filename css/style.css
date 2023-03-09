@@ -1,18 +1,13 @@
 
+/*############################# BODY CLASSES ##############################*/
+
 body {
-  background-color: rgb(183, 226, 252);
+  background-color: gray;
   margin: 0;
 }
 
-header {
-  text-align: center;
-}
-
-h1 {
-  margin: 0;
-}
-
-#intro {
+.full-height {
+  height: 100vh;
   padding-top: 46px; /*TODO: figure out how to make padding dynamic relative to the size of the navbar*/
 }
 
@@ -23,7 +18,7 @@ h1 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:  grey;
+  background-color: darkgray;
   position: fixed;
   top: 00;
   width: 100%;
@@ -53,11 +48,24 @@ h1 {
 #navbar .active {
   background-color: #4287f5;
 }
- #navbar #contact {
-  float: right;
- }
 
 /*############################# ABOUTME CLASSES ##############################*/
+
+#aboutme {
+  background-color: white;
+}
+
+#intro {
+  
+}
+
+#aboutme header {
+  text-align: center;
+}
+
+#aboutme h1 {
+  margin: 0;
+}
 
 #aboutme ul {
   display: block;
@@ -66,4 +74,15 @@ h1 {
 #aboutme ul li {
   display: block;
 }
+
+/*############################# PROJECTS CLASSES ##############################*/
+
+#projects {
+
+}
+
 /*############################# CONTACT CLASSES ##############################*/
+
+#contact {
+
+}
