@@ -55,10 +55,6 @@ body {
   background-color: white;
 }
 
-#intro {
-  
-}
-
 #aboutme header {
   text-align: center;
 }
@@ -78,11 +74,11 @@ body {
 /*############################# PROJECTS CLASSES ##############################*/
 
 #projects {
-
+  background-color: gray;
 }
 
 /*############################# CONTACT CLASSES ##############################*/
 
 #contact {
-
+  background-color: white;
 }
