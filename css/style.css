@@ -11,6 +11,16 @@ body {
   padding-top: 46px; /*TODO: figure out how to make padding dynamic relative to the size of the navbar*/
 }
 
+.float-container {
+  height: 50vh
+}
+
+.float-child {
+  width: 50%;
+  height: 100%;
+  float: left;
+}  
+
 /*############################# NAVBAR CLASSES ##############################*/
 
 #navbar ul {
@@ -69,6 +79,18 @@ body {
 
 #aboutme ul li {
   display: block;
+}
+
+#description {
+  text-align: center;
+}
+
+#profilepicture {
+  text-align: center;
+}
+
+#profilepicture img {
+  height: 100%; 
 }
 
 /*############################# PROJECTS CLASSES ##############################*/
