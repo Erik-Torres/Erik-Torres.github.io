@@ -12,7 +12,7 @@ body {
 }
 
 .float-container {
-  height: 50vh
+  height: 90vh
 }
 
 .float-child {
@@ -20,6 +20,28 @@ body {
   height: 100%;
   float: left;
 }  
+
+.card {
+  width: 25%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; 
+  margin: 2.5%;
+  float: left;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
 
 /*############################# NAVBAR CLASSES ##############################*/
 
@@ -62,7 +84,7 @@ body {
 /*############################# ABOUTME CLASSES ##############################*/
 
 #aboutme {
-  background-color: white;
+  background-color: #474747;
 }
 
 #aboutme header {
