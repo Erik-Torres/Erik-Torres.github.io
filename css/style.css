@@ -12,7 +12,7 @@ body {
 }
 
 .float-container {
-  height: 90vh
+  height: 100%;
 }
 
 .float-child {
@@ -84,7 +84,7 @@ img {
 /*############################# ABOUTME CLASSES ##############################*/
 
 #aboutme {
-  background-color: #474747;
+  background-color: whitesmoke;
 }
 
 #aboutme header {
@@ -95,19 +95,12 @@ img {
   margin: 0;
 }
 
-#aboutme ul {
-  display: block;
-}
-
-#aboutme ul li {
-  display: block;
-}
-
 #description {
   text-align: center;
 }
 
 #profilepicture {
+  height: 75%;
   text-align: center;
 }
 
@@ -115,18 +108,24 @@ img {
   height: 100%; 
 }
 
-#languages {
-  text-align: center;
-}
 
 /*############################# PROJECTS CLASSES ##############################*/
 
 #projects {
-  background-color: gray;
+  background-color: whitesmoke;
+}
+
+#languages {
+  text-align: center;
+}
+
+
+#languages ul {
+  list-style: none;
 }
 
 /*############################# CONTACT CLASSES ##############################*/
 
 #contact {
-  background-color: white;
+  background-color: whitesmoke;
 }
