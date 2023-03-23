@@ -83,6 +83,8 @@ img {
 
 /*############################# ABOUTME CLASSES ##############################*/
 
+/*TODO: Make profile picture and summary centered vertically in the div*/
+
 #aboutme {
   background-color: whitesmoke;
 }
@@ -99,13 +101,23 @@ img {
   text-align: center;
 }
 
+#description h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 7vh;
+}
+
 #profilepicture {
-  height: 75%;
+  height: 100%;
   text-align: center;
 }
 
 #profilepicture img {
-  height: 100%; 
+  height: 75%; 
+}
+
+#summary {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 5vh;
 }
 
 
