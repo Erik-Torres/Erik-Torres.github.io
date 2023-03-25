@@ -143,5 +143,7 @@ img {
 }
 
 #social {
+  /*TODO: Make social media stick to the bottom of the last div, get rid of VH units if possible*/
+  padding-top: 80vh;
   text-align: center;
 }
