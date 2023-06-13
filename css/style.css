@@ -133,6 +133,7 @@ img {
 
 
 #languages ul {
+  text-align: left;
   list-style: none;
 }
 
