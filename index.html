@@ -8,73 +8,75 @@
 </head>
 
 <!--NAVBAR ELEMENT -->
-<header id="navbar">
+<nav id="navbar">
   <ul>
     <li><a href="#aboutme">About Me</a></li>
     <li><a href="#projects">Projects</a></li>
     <li style="float:right"><a href="#contact">Contact</a></li>
   </ul>
-</header>
+</nav>
 
 <!--MAIN SITE CONTENT -->
 <body>
-  <div id="aboutme" class="full-height">
-    
-    <div class="float-container">
-      <div id="profilepicture" class="float-child">
-        <img src="images/ProfilePicture.png" alt="Portrait of Erik Torres">
-      </div>
-      <div id="description" class="float-child">
-        <h1>Erik Torres</h1>
-        <div id="summary">
-          <p>
-            BS Computer Science - San Francisco State University 
-          </p>
-          <p>
-            Experience in Client Relations and Team Management
-          </p>
+  <main>
+    <section id="aboutme" class="full-height">
+      
+      <div class="float-container">
+        <div id="profilepicture" class="float-child">
+          <img src="images/ProfilePicture.png" alt="Portrait of Erik Torres">
+        </div>
+        <div id="description" class="float-child">
+          <h1>Erik Torres</h1>
+          <div id="summary">
+            <p>
+              BS Computer Science - San Francisco State University 
+            </p>
+            <p>
+              Experience in Client Relations and Team Management
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div id="projects" class="full-height">
-    <h2>Projects</h2>
-    <div id="cards">
-      <div class="card">
-        <img src="images/GatorSwap.jpg" alt="Avatar" style="width:100%">
-        <a href="" target="_blank"><h3>GatorSwap (Student Project - Buy/Sell Website)</h3></a>
-        <p>University capstone project where I worked in a team of 6 to develop a mock buy and sell website intended for students. 
-          I was primarily focused on the back-end and contributed to database design decisions as well as implementing a 
-          messaging system for the users. My contributions were made using Node.js, EJS, and MySQL</p>
-      </div>
-      <div class="card">
-        <img src="images/carpg.jpg" alt="Screenshot of CARPG game" style="width:100%">
-        <div class="container">
-          <h4><b><a href="https://erik-torres.itch.io/carpg-miz-jam-1" target="_blank"><h3>CARPG</h3></a></b></h4>
-          <p>A small dungeon crawler-like game where you play as a sentient car that can use spells based on the passengers it picks up. 
-            This was developed with a partner for a <a href="https://itch.io/jam/miz-jam-1">one week game jam</a>, made in Unity using C#.</p>
+    </section>
+    <section id="projects" class="full-height">
+      <h2>Projects</h2>
+      <div id="cards">
+        <div class="card">
+          <img src="images/GatorSwap.jpg" alt="Avatar" style="width:100%">
+          <a href="" target="_blank"><h3>GatorSwap (Student Project - Buy/Sell Website)</h3></a>
+          <p>University capstone project where I worked in a team of 6 to develop a mock buy and sell website intended for students. 
+            I was primarily focused on the back-end and contributed to database design decisions as well as implementing a 
+            messaging system for the users. My contributions were made using Node.js, EJS, and MySQL</p>
+        </div>
+        <div class="card">
+          <img src="images/carpg.jpg" alt="Screenshot of CARPG game" style="width:100%">
+          <div class="container">
+            <h4><b><a href="https://erik-torres.itch.io/carpg-miz-jam-1" target="_blank"><h3>CARPG</h3></a></b></h4>
+            <p>A small dungeon crawler-like game where you play as a sentient car that can use spells based on the passengers it picks up. 
+              This was developed with a partner for a <a href="https://itch.io/jam/miz-jam-1">one week game jam</a>, made in Unity using C#.</p>
+          </div>
         </div>
       </div>
+      <div id="languages">
+        <h2>Languages I have worked with:</h2>
+        <ul>
+          <li><img src="images/csharp.png" alt="C Sharp Logo" width="50px"> I have made a few small games in Unity</li>
+          <li><img src="images/python.png" alt="Python Logo" width="50px"> Used primarily in School, for both Multimedia Applications as well as AI</li>
+          <li><img src="images/java.png" alt="Java Logo" width="50px"> Many of my early university courses were taught in Java, including developing several small android apps.</li>
+          <li><img src="images/c.png" alt="C Logo" width="50px">  1 semester of college</li>
+          <li><img src="images/javascript.png" alt="JavaScript Logo" width="50px">I've previously used Node.JS and EJS in a team setting to deliver a vertical prototype of a buy/sell website.</li>
+          <li><img src="images/html5.png" alt="HTML5 Logo" width="50px">I've used HTML to create a few small websites, including this one!.</li>
+        </ul>
+      </div>
+    </section>
+    <div id="contact" class="full-height">
+      <div id="social">
+        <h2>Social Media / Contact</h2>
+        <a href="https://www.linkedin.com/in/erik-torres-a4b99a1a4/" target="_blank"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="Erik Torres - LinkedIn Profile" width="50" height="50"/></a>
+        <a href="https://github.com/Erik-Torres" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Erik Torres - Github Profile" width="50" height="50"/></a>
+      </div>
     </div>
-    <div id="languages">
-      <h2>Languages I have worked with:</h2>
-      <ul>
-        <li><img src="images/csharp.png" alt="C Sharp Logo" width="50px"> I have made a few small games in Unity</li>
-        <li><img src="images/python.png" alt="Python Logo" width="50px"> Used primarily in School, for both Multimedia Applications as well as AI</li>
-        <li><img src="images/java.png" alt="Java Logo" width="50px"> Many of my early university courses were taught in Java, including developing several small android apps.</li>
-        <li><img src="images/c.png" alt="C Logo" width="50px">  1 semester of college</li>
-        <li><img src="images/javascript.png" alt="JavaScript Logo" width="50px">I've previously used Node.JS and EJS in a team setting to deliver a vertical prototype of a buy/sell website.</li>
-        <li><img src="images/html5.png" alt="HTML5 Logo" width="50px">I've used HTML to create a few small websites, including this one!.</li>
-      </ul>
-    </div>
-  </div>
-  <div id="contact" class="full-height">
-    <div id="social">
-      <h2>Social Media / Contact</h2>
-      <a href="https://www.linkedin.com/in/erik-torres-a4b99a1a4/" target="_blank"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="Erik Torres - LinkedIn Profile" width="50" height="50"/></a>
-      <a href="https://github.com/Erik-Torres" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Erik Torres - Github Profile" width="50" height="50"/></a>
-    </div>
-  </div>
+  </main>
 </body>
 
 </html>
